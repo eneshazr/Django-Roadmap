@@ -1,5 +1,8 @@
 # Python Django Yol Haritası
 
+![image](https://github.com/yazilimfuryasi/Django-Roadmap/assets/84662757/647c94da-8dba-46de-acae-bac756f1e729)
+
+
 💡 `Bu yola, en azından Python'un temel seviyesine hakim olarak başlandığını baz alıyorum.`
 
 ### 👶 Temel
