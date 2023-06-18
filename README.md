@@ -7,7 +7,7 @@
 
 ### 👶 Temel
   * **virtualenv**: Sanal çalışma ortamı sağlayıp projeleri izole edin.
-  * Proje ve uygulama oluşturun.
+  * Django Projesini oluşturun.
   * **Views, Urls** dosyalarını anlayın.
   * **Templates, Staticfiles**: Django şablon olarak **Jinja2** kullanır. Bunu araştırıp ve temel **HTML** bilgisi ile görsel içerikli bir sayfa yazın.
   * **Template Partials yapısı**: Oluşturduğunuz şablonu Partials kullanarak geliştirin.
@@ -21,13 +21,13 @@
   * **User Authentication**: Kullanıcı kimlik doğrulama (authentication) işlemlerini öğrenin. Kullanıcı kaydı, giriş ve çıkış gibi temel işlemleri yapın.
   * **Class-Based Views**: Sınıf tabanlı görüntüleri öğrenin.
   * **Querysets**: ORM'inin güçlü sorgu yapısını öğrenin. Veritabanından veri sorgulamak, filtrelemek, sıralamak ve ilişkili nesneleri almak için queryset'lerin nasıl kullanıldığını araştırıp uygulayın.
-  * **Middleware**: Middleware yapısını anlayın ve nasıl özelleştirebileceğini öğrenin.
-  * **File Uploads**: Dosya yükleme işlemlerini nasıl gerçekleştireceğini öğren. Dosyaları sunucuya yükle ve işleyin.  
+  * **Middleware**: Middleware yapısını anlayın ve nasıl özelleştirebileceğinizi öğrenin.
+  * **File Uploads**: Dosya yükleme işlemlerini nasıl gerçekleştireceğinizi öğren. Dosyaları sunucuya yükle ve işleyin.  
 
 ### ⚡ İleri
- * **Testing**: Test yazma ve otomatik testleri nasıl yürüteceğini öğrenin.
+ * **Testing**: Test yazma ve otomatik testleri nasıl çalıştığını öğrenin.
   * **Serializer**: API için sık kullanılan bu yapıyı araştırın.
-  * **REST Framework**: API nedir, nasıl kullanılır öğren ve öğrendiklerini uygulayın.
+  * **REST Framework**: API nedir, nasıl kullanılır öğrenin ve öğrendiklerinizi uygulayın.
   * **Cache Yönetimi**: Çerezleri kullanarak performansı arttırın.
 
 
@@ -48,20 +48,20 @@
   * **django-payments**: Ödeme entegrasyonu için kullanılır.
 
 ### 🛡 Django Uygulamasının Güvenliği
-  * **Cross-Site Scripting (XSS) Koruması**: Django şablon motoru ve form işleme mekanizmalarını doğru şekilde kullanarak XSS saldırılarına karşı önlem alınmalı.
+  * **Cross-Site Scripting (XSS) Koruması**: Django şablon motoru ve form işleme mekanizmalarını doğru şekilde kullanarak XSS saldırılarına karşı önlem alın.
   * **Cross-Site Request Forgery (CSRF) Koruması**: Django, CSRF saldırılarına karşı otomatik olarak koruma sağlar, ancak doğru yapılandırma ve kullanımınızı sağlamak için bu özelliği anlayın ve uygulamanızı doğrulayın.
   * **Güçlü Parola ve Kullanıcı Doğrulama Politikaları**: Kullanıcıların güçlü şifreler seçmelerine yol gösterin ve gerektiğinde şifre sıfırlama işlemleri için doğru yöntemleri kullanın.
   * **Veritabanı Güvenliği**: Django ORM'i, veritabanına güvenli bir şekilde erişmek için kullanıcı girişi, filtreleme ve sorgu parametrelerini kullanmayı öğrenin.
   * **Güvenli Oturum Yönetimi**: Django oturum yönetimi özelliklerini kullanarak oturumların güvenliğini sağlayın, oturumları zaman aşımına uğratın ve oturum kimlik bilgilerini doğru şekilde işleyin.
   * **Güvenli Dosya İşlemleri**: Kullanıcıların yüklediği dosyaları doğru bir şekilde işleyin, dosya yollarını kontrol edin, yetkilendirme kontrolleri yapın ve zararlı dosyaların sunucuya yüklenmesini önleyin.
   * **Güncel Sürümleri ve Güvenlik Yamalarını Takip Etme**: Django'nun güncel sürümlerini kullanarak güncel güvenlik düzeltmelerini takip edin ve uygulamalarınızı güncel tutun.
-  * **Hata Ayıklama ve Loglama**: Django'nun hata ayıklama ve loglama mekanizmalarını etkinleştirin ve uygulamanızdaki hataları izleyin, kaydedin ve analiz edin.
+  * **Hata Ayıklama ve Loglama**: Django'nun hata ayıklama ve loglama mekanizmalarını etkinleştirin. Uygulamanızdaki hataları izleyin, kaydedin ve analiz edin.
   * **Doğrulama ve Yetkilendirme**: Django'nun doğrulama ve yetkilendirme mekanizmalarını doğru şekilde kullanarak kullanıcı erişimini kontrol edin ve yetkilendirme kontrollerini uygulayın.
   * **Güvenlik İncelemeleri ve Zafiyet Taramaları**: Uygulamanızı düzenli olarak güvenlik açıklarına karşı inceleyin, zafiyet taramaları yapın ve gerektiğinde güvenlik açıklarını düzeltmek için önlemler alın.
 
 ### 🚀 Dağıtım / Deployment
   * **Sunucu**: Herhangi bir server üzerinden yayına alın. Şimdilik lokal olabilir. Ancak gerçek bir uygulama yaptıysanız, hosting olarak **AWS** veya **DigitalOcean**, sistem olarak ise **Ubuntu** tavsiye edebilirim.
-  * **Nginx, SSL**: **Nginx** ile URL yönlendirmelerini yap ve **SSL** sertifikasını kullanın.
+  * **Nginx, SSL**: **Nginx** ile URL yönlendirmelerini yapın ve **SSL** sertifikasını kullanın.
   * **Gunicorn**: Gunicorn kullanarak uygulamayı ayakta tutun.
   * **Docker**: Sıradan dağıtım kullandıktan sonra Docker öğren ve docker üzerinden deploy işlemi gerçekleştirin.
 
